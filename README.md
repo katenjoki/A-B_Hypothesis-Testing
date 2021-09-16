@@ -2,7 +2,9 @@
 
 This repository contains code to solving an Ad-Campaign business problem, using A/B testing.
 
-***The main objective of this project is to test if the ads that the advertising company runs resulted in a significant lift in brand awareness.*** 
+***The main objective of this project is to test if the ads that an advertising company runs resulted in a significant lift in brand awareness.***
+
+Check out the deployed app [here](https://smartadscampaign.herokuapp.com/)!
 
 <h3>Data</h3>
 The data for this project is a “Yes” and “No” response of online users to the following question:
