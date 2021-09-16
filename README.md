@@ -13,11 +13,10 @@ One of the tasks is to design a reliable hypothesis testing algorithm for the BI
 <h3>Data</h3>
 The BIO data for this project is a “Yes” and “No” response of online users to the following question:
 
-**Q: Do you know the brand Lux?
-		O  Yes
-		O  No**
+**Q: Do you know the brand Lux?**
+O  Yes		O  No
+		
+The users that were presented with the questionnaire above were chosen according to the following rule:
 
-This is a test run and the main objective is to validate the hypothesis algorithm built. The Ad co. ran this campaign from 3-10 July 2020. The users that were presented with the questionnaire above were chosen according to the following rule:
-
-Control: users who have been shown a dummy ad
-Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client. 
+* Control: users who have been shown a dummy ad\n
+* Exposed: users who have been shown a creative (ad) that was designed by SmartAd for the client. 
