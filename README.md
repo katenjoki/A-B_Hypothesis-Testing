@@ -11,7 +11,7 @@ To determine the impact of the ad they design, the ad company provides an additi
 One of the tasks is to design a reliable hypothesis testing algorithm for the BIO service and to determine whether a recent advertising campaign resulted in a significant lift in brand awareness.
 
 <h3>Data</h3>
-The BIO data for this project is a “Yes” and “No” response of online users to the following question
+The BIO data for this project is a “Yes” and “No” response of online users to the following question:
 
 **Q: Do you know the brand Lux?
 		O  Yes
