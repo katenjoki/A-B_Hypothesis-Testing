@@ -23,14 +23,7 @@ def get_data(filename):
     data = pd.read_csv(filename)
     return data
 
-st.markdown(
-'''
-<style>
-.main{
-background-color:#F5F5F5;
-}
-</style>
-''',unsafe_allow_html = True)
+
 with header:
     st.title("A/B Hypothesis Testing: Ad campaign performance")
     st.text("The main objective of this project is to test if the ads that an advertising company run resulted in a significant lift in brand awareness.")
