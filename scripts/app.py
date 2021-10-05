@@ -15,9 +15,9 @@ from sklearn import metrics
 from sklearn.metrics import mean_squared_error, mean_absolute_error,r2_score
 from sklearn.metrics import accuracy_score, confusion_matrix
                 
-header = st.beta_container()
-dataset = st.beta_container()
-model_build = st.beta_container()
+header = st.container()
+dataset = st.container()
+model_build = st.container()
 
 def get_data(filename):
     data = pd.read_csv(filename)
