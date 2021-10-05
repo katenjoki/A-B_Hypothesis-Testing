@@ -39,7 +39,7 @@ with dataset:
     st.header("Smart Ad data")
     st.text("The advertising company has a service called Brand Impact Optimiser (BIO), a lightweight questionnaire, served with every campaign to determine the \nimpact of the creative, the ad they design, on various upper funnel metrics,including memorability and brand sentiment.\n \nThe data for this project is a “Yes” and “No” response of online users to the following  question:\nQ: Do you know the brand Lux? \n O Yes O No")
     
-    smart_data = get_data("AdSmartABdata.csv")
+    smart_data = get_data('data/AdSmartABdata.csv')
     st.write(smart_data.head())
     
     st.subheader("Plots of the features can be seen below! You can choose any pair of features to compare their distribution against each other")
@@ -82,7 +82,7 @@ with model_build:
     feature = ['Browser','Platform']    
     feat = st.selectbox('What features should we focus our modelling on?',feature)
     if feat == 'Browser':
-        browser = get_data('browser.csv')
+        browser = get_data('data/browser.csv')
         X=browser.loc[:,browser.columns != 'yes']
         y=browser['yes']
         X_train, X_test, y_train, y_test = train_test_split(X,y,train_size=0.7,random_state=42)
@@ -106,7 +106,7 @@ with model_build:
             loss_function(y_test, y_pred)
             
     else:
-        platform = get_data('platform.csv')
+        platform = get_data('data/platform.csv')
         X=platform.loc[:,platform.columns != 'yes']
         y=platform['yes']
         X_train, X_test, y_train, y_test = train_test_split(X,y,train_size=0.7,random_state=42)
