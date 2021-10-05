@@ -4,7 +4,7 @@ This repository contains code to solving an Ad-Campaign business problem, using 
 
 The main objective of this project is to test if the ads that an advertising company ran resulted in a significant lift in brand awareness.
 
-Check out the deployed app [here](https://smartadscampaign.herokuapp.com/)!
+Check out the deployed app [here](https://share.streamlit.io/katenjoki/a-b-hypothesis-testing-ad-campaign-performance/scripts/app.py#a-b-hypothesis-testing-ad-campaign-performance)!
 
 <h3>Data</h3>
 The data for this project is a “Yes” and “No” response of online users to the following question:
