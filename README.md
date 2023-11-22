@@ -39,7 +39,7 @@ Number of users per group who responded yes (1) or no (0) to the question: Do yo
 | control | 0.451 | 0.498  | 0.020  |
 | exposed | 0.469 | 0.499 | 0.019 |
 
-**Interpreation:**
+**Interpretation:**
 * Around 45.1% of users in the control group and 46.9% of users in the exposed group responded positively to the question.
 * The exposed group has a slightly higher response rate, but we have to determine whether the difference is *statistically significant.* 
 
