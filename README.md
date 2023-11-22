@@ -10,6 +10,7 @@ Check out the deployed app [here](https://share.streamlit.io/katenjoki/a-b-hypot
 The data for this project is a “Yes” and “No” response of online users to the following question:
 
 **Q: Do you know the brand Lux?**
+
 O  Yes		O  No
 		
 The users that were presented with the questionnaire above were chosen according to the following rule:
@@ -23,7 +24,7 @@ This involves comparing two versions of a variable/ product to see which perfrom
 
 **Null Hypothesis:-** The creative ad designed by SmartAd did not result in a significant lift in brand awareness (when compared to the dummy ad).
 
-Number of users per group (control, exposed) who responded yes (1) or no (0) to the question: Do you know the brand Lux?
+Number of users per group who responded yes (1) or no (0) to the question: Do you know the brand Lux?
 
 | Response | 0 | 1 |
 | ---------| ---------| ---------|
@@ -43,6 +44,7 @@ Number of users per group (control, exposed) who responded yes (1) or no (0) to 
 * The exposed group has a slightly higher response rate, but we have to determine whether the difference is *statistically significant.* 
 
 **Statistical significance of A/B test**
+
 A z test is used to test a null hypothesis by comparing the means of 2 groups and is used when the sample size > 30.
 * z_statistic: -0.65
 * p value: 0.518
@@ -50,7 +52,9 @@ A z test is used to test a null hypothesis by comparing the means of 2 groups an
 * Confidence interval(95%) for exposed group: [0.431,0.507]
 
 **Conclusion**
-Using a significance level of 0.05, we can observe that the p value of 0.518 is much greater. This means we *fail to reject the null hypothesis*. A low p-value prevents us from making a Type I error which occurs when we reject the null hypothesis when it's true in the population, leading to a false positive. 
+
+Using a significance level of 0.05, we can observe that the p value of 0.518 is much greater. This means we *fail to reject the null hypothesis*. 
+A low p-value prevents us from making a Type I error which occurs when we reject the null hypothesis when it's true in the population, leading to a false positive. 
 
 We conclude that the creative ad designed by SmartAd did not result in a significant lift in brand awareness. 
 
