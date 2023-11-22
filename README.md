@@ -58,3 +58,6 @@ A low p-value prevents us from making a Type I error which occurs when we reject
 
 We conclude that the creative ad designed by SmartAd did not result in a significant lift in brand awareness. 
 
+<h3> A/B testing with Machine Learning </h3>
+ML algorithms enable us to model complex systems that could include features such as, in our case, the browser, device type, hour the user viewed the ad etc.
+
