@@ -29,8 +29,8 @@ header = st.container()
 dataset = st.container()
 model_build = st.container()
 
-browser = pd.read_csv('../data/browser.csv')
-platform = pd.read_csv('../data/platform.csv')
+browser = pd.read_csv('../data/browser.csv',encoding='unicode_escape')
+platform = pd.read_csv('../data/platform.csv',encoding='unicode_escape')
 
 def scale_dataset(dataframe:pd.DataFrame,target_col='response'):
     cols = dataframe.columns.tolist()

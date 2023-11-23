@@ -48,7 +48,7 @@ with header:
 with dataset:
     st.header("Smart Ad data")
     st.text("The advertising company has a service called Brand Impact Optimiser (BIO), a\nlightweight questionnaire, served with every campaign to determine the impact of\nthe ad they design. The data for this project is a “Yes” and “No” response of\nonline users to the following question: \nDo you know the brand Lux? \n O Yes O No")
-    df = pd.read_csv("../data/AdSmartABdata.csv")
+    df = pd.read_csv("../data/AdSmartABdata.csv",encoding='unicode_escape')
     st.subheader("A snippet of the data")
     st.write(df.head())
     st.text("Response:\n1 - Yes\n0 - No")
