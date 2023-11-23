@@ -25,8 +25,8 @@ from sklearn.model_selection import train_test_split
 
 from sklearn.metrics import accuracy_score, classification_report
 
-browser = pd.read_csv('../data/browser.csv')
-platform = pd.read_csv('../data/platform.csv')
+browser = pd.read_csv('browser.csv')
+platform = pd.read_csv('platform.csv')
 
 def scale_dataset(dataframe:pd.DataFrame,target_col='response'):
     cols = dataframe.columns.tolist()
