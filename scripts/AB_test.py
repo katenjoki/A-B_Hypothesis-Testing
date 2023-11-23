@@ -114,9 +114,9 @@ with model_build:
     feat = st.selectbox('What features should we focus our modelling on?',feature,)
     if feat == 'Browser':
         is_browser=True
-        data = pd.read_csv('../data/browser.csv')
+        data = pd.read_csv('browser.csv')
     else:
-        data = pd.read_csv('../data/platform.csv')
+        data = pd.read_csv('platform.csv')
         is_browser = False
     X=data.loc[:,data.columns != 'response']
     y=data['response']
